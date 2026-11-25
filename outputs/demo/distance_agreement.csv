@@ -1,0 +1,11 @@
+linkage,k,euclidean_config_id,manhattan_config_id,ari
+average,2,agglomerative-average-euclidean-k2,agglomerative-average-manhattan-k2,1.0
+complete,2,agglomerative-complete-euclidean-k2,agglomerative-complete-manhattan-k2,0.029770518916683895
+average,3,agglomerative-average-euclidean-k3,agglomerative-average-manhattan-k3,1.0
+complete,3,agglomerative-complete-euclidean-k3,agglomerative-complete-manhattan-k3,0.33874709976798145
+average,4,agglomerative-average-euclidean-k4,agglomerative-average-manhattan-k4,0.5201596100665463
+complete,4,agglomerative-complete-euclidean-k4,agglomerative-complete-manhattan-k4,0.5306652028544339
+average,5,agglomerative-average-euclidean-k5,agglomerative-average-manhattan-k5,0.637676457116711
+complete,5,agglomerative-complete-euclidean-k5,agglomerative-complete-manhattan-k5,0.6574808957601864
+average,6,agglomerative-average-euclidean-k6,agglomerative-average-manhattan-k6,0.8334033907059817
+complete,6,agglomerative-complete-euclidean-k6,agglomerative-complete-manhattan-k6,0.9353747030109164

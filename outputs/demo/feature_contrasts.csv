@@ -1,0 +1,12 @@
+feature,eta_squared,used_in_model,observed_businesses
+positive_ratio,0.949501967708099,False,96
+mean_rating,0.9364143351212316,True,96
+negative_ratio,0.9310324020267268,False,96
+log_review_count,0.9272983399497485,True,96
+star_2_ratio,0.8490600739627296,False,96
+log_reviews_per_month,0.8456881357644678,True,94
+star_1_ratio,0.8366998711049215,False,96
+rating_variance,0.8154550354953601,True,94
+star_5_ratio,0.7814914831106882,False,96
+star_3_ratio,0.6554072752039026,True,96
+star_4_ratio,0.332291354228489,False,96

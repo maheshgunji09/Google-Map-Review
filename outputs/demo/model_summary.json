@@ -1,0 +1,89 @@
+{
+  "selected_config_id": "kmeans-centroid-euclidean-k5",
+  "n_businesses": 96,
+  "n_fit": 96,
+  "pca_explained_variance_ratio": [
+    0.4842392959869849,
+    0.3136043719294718
+  ],
+  "feature_names": [
+    "mean_rating",
+    "rating_variance",
+    "star_3_ratio",
+    "log_review_count",
+    "log_reviews_per_month"
+  ],
+  "excluded_features": {
+    "sentiment_mean": "insufficient coverage in fit cohort"
+  },
+  "preprocessing": {
+    "medians": {
+      "mean_rating": 3.6595124536301,
+      "rating_variance": 1.067794504715028,
+      "star_3_ratio": 0.06723163841807905,
+      "log_review_count": 3.6375861597263857,
+      "log_reviews_per_month": 1.320858096661956
+    },
+    "means": {
+      "mean_rating": 3.6056836999907174,
+      "rating_variance": 1.289735933480099,
+      "star_3_ratio": 0.0930943506110863,
+      "log_review_count": 3.294195490644586,
+      "log_reviews_per_month": 1.4222202735736431
+    },
+    "scales": {
+      "mean_rating": 0.9978522318720697,
+      "rating_variance": 0.9668044218348439,
+      "star_3_ratio": 0.09211014445254251,
+      "log_review_count": 1.0503426788224246,
+      "log_reviews_per_month": 0.7716094201945576
+    }
+  },
+  "random_seed": 42,
+  "max_fit": 2000,
+  "requested_k": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "tested_k": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "elbow_k": 3,
+  "elbow_curve": [
+    {
+      "k": 1,
+      "wcss": 480.0
+    },
+    {
+      "k": 2,
+      "wcss": 308.7150188613796
+    },
+    {
+      "k": 3,
+      "wcss": 179.79289643249393
+    },
+    {
+      "k": 4,
+      "wcss": 119.47584630561914
+    },
+    {
+      "k": 5,
+      "wcss": 80.76384226279802
+    },
+    {
+      "k": 6,
+      "wcss": 69.2330693275694
+    }
+  ],
+  "min_cluster_support": 2,
+  "support_fallback": false,
+  "selection_rule": "Smallest mean rank across native-distance silhouette (higher), Euclidean Davies\u2013Bouldin (lower) and resampling ARI (higher), among partitions meeting minimum support if available. Ties prefer fewer groups, then K-Means.",
+  "stability": "Mean ARI against the reference partition over three additional seeds (K-Means) and three random 80% subsets refitted with new medians and scales. Subset ARI uses shared businesses with a nontrivial reference partition."
+}

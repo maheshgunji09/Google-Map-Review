@@ -1,0 +1,8 @@
+# Versions used to generate and test the bundled demonstration (Python 3.11).
+altair==6.2.1
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+scipy==1.17.1
+streamlit==1.58.0
+threadpoolctl==3.6.0
